@@ -1,0 +1,11 @@
+prefix=/Users/siddhantrathi/Desktop/Q&A_chatbot/venu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/siddhantrathi/Desktop/Q&A_chatbot/venu/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

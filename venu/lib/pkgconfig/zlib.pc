@@ -1,0 +1,13 @@
+prefix=/Users/siddhantrathi/Desktop/Q&A_chatbot/venu
+exec_prefix=/Users/siddhantrathi/Desktop/Q&A_chatbot/venu
+libdir=/Users/siddhantrathi/Desktop/Q&A_chatbot/venu/lib
+sharedlibdir=/Users/siddhantrathi/Desktop/Q&A_chatbot/venu/lib
+includedir=/Users/siddhantrathi/Desktop/Q&A_chatbot/venu/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
